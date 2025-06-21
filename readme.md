@@ -50,3 +50,14 @@ Value: selecione o transporte.csv
 
 Descrição:
 Este endpoint recebe um arquivo CSV com as colunas linha e quantidade_passageiros e devolve um JSON classificando cada linha em Baixa, Média ou Alta demanda, usando clusterização automática com KMeans.
+
+
+
+
+🛠 Como gerar o requirements.txt:
+
+Se ainda não criou, basta rodar este comando no terminal com o ambiente virtual ativado:
+pip freeze > requirements.txt
+
+Isso vai criar um arquivo com todas as bibliotecas instaladas, pra que qualquer pessoa possa recriar seu ambiente com:
+pip install -r requirements.txt
